@@ -1,0 +1,29 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin url="https://github.com/nickcentral/run-in-terminal">
+  <id>com.github.nickcentral.runinterminal</id>
+  <vendor url="https://github.com/nickcentral" email="pm4nick@gmail.com">
+    nickcentral
+  </vendor>
+  <depends>com.intellij.modules.platform</depends>
+  <resource-bundle>messages.MyBundle</resource-bundle>
+  <extensions defaultExtensionNs="com.intellij">
+    <notificationGroup id="com-github-nickcentral-runinterminal-services-NotificationService"
+      displayType="BALLOON"
+      key="notificationGroupName"/>
+  </extensions>
+  <actions>
+    <action
+      class="com.github.nickcentral.runinterminal.actions.RunInTerminalAction"
+      id="com-github-nickcentral-runinterminal-actions-RunInTerminalAction"
+      icon="com.github.nickcentral.runinterminal.MyIcons.RUN_IN_TERMINAL">
+      <add-to-group
+        group-id="ToolsMenu"/>
+      <add-to-group
+        group-id="EditorPopupMenu"
+        anchor="last"/>
+      <keyboard-shortcut
+        keymap="Mac OS X 10.5+"
+        first-keystroke="meta ENTER"/>
+    </action>
+  </actions>
+</idea-plugin>
