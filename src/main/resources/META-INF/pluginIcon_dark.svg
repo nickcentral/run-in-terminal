@@ -1,0 +1,9 @@
+<!-- Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license. -->
+<svg width="40" height="40" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Play -->
+  <path d="M13.5 7.13397C14.1667 7.51888 14.1667 8.48112 13.5 8.86602L4.5 14.0622C3.83333 14.4471 3 13.966 3 13.1962L3 2.80385C3 2.03405 3.83333 1.55292 4.5 1.93782L13.5 7.13397Z" fill="#253627" stroke="#57965C"/>
+
+  <!-- Terminal prompt ( > _ ) -->
+  <path d="M6.15 5.9L7.6 7.25L6.15 8.6" stroke="#57965C" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8.35 8.6H10.45" stroke="#57965C" stroke-linecap="round"/>
+</svg>
